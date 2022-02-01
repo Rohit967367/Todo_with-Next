@@ -1,0 +1,53 @@
+.login {
+  background: aliceblue;
+  margin: 4.5rem auto;
+  width: 100%;
+  max-width: 50rem;
+  border-radius: 5px;
+}
+.head {
+  height: 14rem;
+  margin: 1rem 0;
+  background-color: rgb(241, 242, 243);
+  color: rgb(77, 77, 77);
+}
+.heading {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+}
+.shortInfo {
+  font-size: 18px;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 14rem;
+}
+.imageContainer {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
+    max-width: fit-content;
+    margin: 35% auto;
+
+  }
+}

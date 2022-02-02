@@ -18,7 +18,7 @@ const Home = () => {
         })
       );
     }
-  }, [session]);
+  }, [session, dispatch]);
   console.log(process.env.NEXTAUTH_URL);
 
   return (
